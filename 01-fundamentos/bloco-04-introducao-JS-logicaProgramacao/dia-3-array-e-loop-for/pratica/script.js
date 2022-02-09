@@ -6,6 +6,7 @@ let numerosImpares = [0]
 let menorNumero = numbers[0]
 let numeros25 = []
 let metadeNumeros25 = []
+let listaMultiplicada = [];
     // for (let index = 0; index < numbers.length; index += 1){
     // console.log(numbers[index])
     // soma += numbers[index]
@@ -35,3 +36,16 @@ let metadeNumeros25 = []
 //     metadeNumeros25.push((index25+1)/2)
 // } console.log(numeros25)
 // console.log(metadeNumeros25)
+<<<<<<< HEAD
+=======
+
+for(index = 0; index < numbers.length; index += 1) {
+    if (index <= numbers.length - 2) {
+        listaMultiplicada.push(numbers[index] * numbers[index + 1]);
+    } else {
+        listaMultiplicada.push(numbers[index] * 2);
+    }
+}
+
+console.log(listaMultiplicada);
+>>>>>>> exercicios-4-3
