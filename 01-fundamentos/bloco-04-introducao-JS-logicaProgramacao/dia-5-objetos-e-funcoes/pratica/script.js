@@ -60,11 +60,13 @@
 // console.log(leitor.nome + ' tem ' + leitor.livrosFavoritos.length + ' livros favoritos')
 
 // Parte II - Funções
-let array = 'arara'
-// function palindromo(){
+let array = 'desenvolvimento'
+let palavraInvertida = []
+function palindromo(){
   for(let index = 0; index < array.length; index+=1){
-      if(index >=0){
-       let palavraInvertida =(array[index])
-      }
-  } console.log(palavraInvertida)
-// }
+    palavraInvertida.unshift(array[index])
+  } return palavraInvertida
+} if (palavraInvertida === array) {
+  console.log('true')
+} else {console.log('false')}
+
