@@ -18,7 +18,7 @@ let metadeNumeros25 = []
     // if (numbers[index]%2 != 0){
     //     numerosImpares.push(numbers[index])     
     // } 
-
+// console.log(maiorNumero)
 // }
 //  console.log(menorNumero)
 // if (numerosImpares.length === 0 ){
@@ -30,8 +30,8 @@ let metadeNumeros25 = []
 //     console.log('valor maior que 20')
 // } else {console.log('valor menor ou igual a 20')}  
 // console.log(maiorNumero)
-for (let index25 = 0; index25 <= 24; index25 += 1){
-    numeros25.push(index25 + 1)
-    metadeNumeros25.push((index25+1)/2)
-} console.log(numeros25)
-console.log(metadeNumeros25)
+// for (let index25 = 0; index25 <= 24; index25 += 1){
+//     numeros25.push(index25 + 1)
+//     metadeNumeros25.push((index25+1)/2)
+// } console.log(numeros25)
+// console.log(metadeNumeros25)
