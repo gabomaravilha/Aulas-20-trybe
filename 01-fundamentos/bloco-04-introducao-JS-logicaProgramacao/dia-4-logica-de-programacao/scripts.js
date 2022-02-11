@@ -12,23 +12,23 @@
 // }console.log(palavraInvertida)
 
 // Considere o array de strings abaixo:
-let array = ['css', 'java', 'javascript', 'python', 'html','CARA', 'VAI', 'SE', 'fUDER', 'VASCO', 'JAPHE'];
-let maiorNumero = []
-let menorNumero = array[0]
+// let array = ['css', 'java', 'javascript', 'python', 'html','CARA', 'VAI', 'SE', 'fUDER', 'VASCO', 'JAPHE'];
+// let maiorNumero = []
+// let menorNumero = array[0]
 // Escreva dois algoritmos: um que retorne a maior palavra deste array e outro que retorne a menor. Considere o número de caracteres de cada palavra.
-for (index = 0; index < array.length;index += 1) {
-    if (maiorNumero.length < array[index].length) {
-        maiorNumero = array[index]
-    } 
-}
-console.log(maiorNumero)
+// for (index = 0; index < array.length;index += 1) {
+//     if (maiorNumero.length < array[index].length) {
+//         maiorNumero = array[index]
+//     } 
+// }
+// console.log(maiorNumero)
 
-for (index = 0; index < array.length;index += 1) {
-    if (menorNumero.length > array[index].length) {
-        menorNumero = array[index]
-    } else {}
-}
-console.log(menorNumero)
+// for (index = 0; index < array.length;index += 1) {
+//     if (menorNumero.length > array[index].length) {
+//         menorNumero = array[index]
+//     } else {}
+// }
+// console.log(menorNumero)
 
 //Um número primo é aquele divisível apenas por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 0 e 50.
 // let maiorNumeroPrimo = []

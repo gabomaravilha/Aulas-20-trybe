@@ -155,17 +155,17 @@
 // console.log((3/2)%1)
 // Crie uma função que receba uma string word e outra string ending . Verifique se a string ending é o final da string word .
 //  Considere que a string ending sempre será menor que a string word .
-let palavra = 'joaofernando'
-let palavra1 = 'fernan'
-  function verificaFim(params, params2) {
-    let letrasIguais= 0
-    let resposta = 0
-    for (let index = 0; index < params2.length; index+=1) {
-      if (params2[(params2.length-1) - index] === params[(params.length-1)-index]){
-        letrasIguais+=1
-      }
-      if(params2.length === letrasIguais) {
-        resposta = true
-      }else {resposta = false}
-    }return resposta
-  }console.log(verificaFim(palavra, palavra1))
+// let palavra = 'joaofernando'
+// let palavra1 = 'fernan'
+//   function verificaFim(params, params2) {
+//     let letrasIguais= 0
+//     let resposta = 0
+//     for (let index = 0; index < params2.length; index+=1) {
+//       if (params2[(params2.length-1) - index] === params[(params.length-1)-index]){
+//         letrasIguais+=1
+//       }
+//       if(params2.length === letrasIguais) {
+//         resposta = true
+//       }else {resposta = false}
+//     }return resposta
+//   }console.log(verificaFim(palavra, palavra1))
