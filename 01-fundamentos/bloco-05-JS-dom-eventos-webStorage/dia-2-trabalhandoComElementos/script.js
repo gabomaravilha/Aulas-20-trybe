@@ -9,15 +9,17 @@
 // console.log(texto1)
 // var texto2 = document.getElementById('pai').lastElementChild.previousElementSibling
 // console.log(texto2)
-let pai = document.querySelector('#pai')
-let irmao = document.createElement('section')
-pai.appendChild(irmao)
-let ultimoFilho = document.querySelector('#pai').lastElementChild
-let irmao1 = document.createElement('section')
-let acharIrmao = document.querySelector('#elementoOndeVoceEsta')
-acharIrmao.appendChild(irmao1)
-let acharPrimeiroFilho = document.querySelector('#primeiroFilho')
-let irmao2 = document.createElement('section')
-acharPrimeiroFilho.appendChild(irmao2)
-let acharIrmao2 = document.getElementById('primeiroFilho').firstElementChild.parentElement.nextElementSibling.nextElementSibling
-console.log(acharIrmao2)
+// let pai = document.querySelector('#pai')
+// let irmao = document.createElement('section')
+// pai.appendChild(irmao)
+// let ultimoFilho = document.querySelector('#pai').lastElementChild
+// let irmao1 = document.createElement('section')
+// let acharIrmao = document.querySelector('#elementoOndeVoceEsta')
+// acharIrmao.appendChild(irmao1)
+// let acharPrimeiroFilho = document.querySelector('#primeiroFilho')
+// let irmao2 = document.createElement('section')
+// acharPrimeiroFilho.appendChild(irmao2)
+// let acharIrmao2 = document.getElementById('primeiroFilho').firstElementChild.parentElement.nextElementSibling.nextElementSibling
+// console.log(acharIrmao2)
+// let paiDoPai = document.querySelector('#paiDoPai')
+// paiDoPai.removeChild('#terceiroFilho')
