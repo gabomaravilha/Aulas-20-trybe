@@ -61,5 +61,12 @@ const books = [
     },
   ];
   
-const a = (objeto) => objeto.sort((a,b) => a.releaseYear - b.releaseYear)
-console.log(a(books))
+// const a = (objeto) => objeto.sort((a,b) => a.releaseYear - b.releaseYear)
+// console.log(a(books))
+
+// const a = (objeto) => {
+//   return objeto
+//   .filter((elemento) => (elemento.releaseYear < 2022 - 60))
+//   .sort((elementoA, elementoB) => elementoA.releaseYear - elementoB.releaseYear);
+// }
+// console.log(a(books))

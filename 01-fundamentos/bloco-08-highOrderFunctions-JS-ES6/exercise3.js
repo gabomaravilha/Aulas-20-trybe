@@ -61,5 +61,12 @@ const books = [
     },
   ];
   
-const a = (objeto) => objeto.find((elemento) => elemento.name.length = 26).name
-console.log(a(books))
+// const a = (objeto) => objeto.find((elemento) => elemento.name.length = 26).name
+// console.log(a(books))
+
+// const a = (objeto) => {
+//   return objeto.filter((elemento) => (
+//     elemento.genre === 'Fantasia' || elemento.genre === 'Ficção Científica'
+//   ))
+// }
+// console.log(a(books))

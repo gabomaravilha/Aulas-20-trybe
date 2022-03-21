@@ -61,5 +61,12 @@ const books = [
     },
   ];
   
-  const a = (elemento) => elemento.some((elemento) => elemento.releaseYear >= 1980 && elemento.releaseYear <= 1989)
-  console.log(a(books));
+  // const a = (elemento) => elemento.some((elemento) => elemento.releaseYear >= 1980 && elemento.releaseYear <= 1989)
+  // console.log(a(books));
+
+  const a = (objeto) => {
+    return objeto
+    .filter((elemento) => (elemento.releaseYear < 2022 - 60))
+    .map((elemento) => elemento.name);
+  }
+  console.log(a(books))

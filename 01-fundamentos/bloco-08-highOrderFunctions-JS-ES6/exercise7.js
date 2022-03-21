@@ -61,8 +61,17 @@ const books = [
     },
   ];
   
+// const a = (objeto) => {
+//   return (objeto.find((elemento, index, array) => 
+//     (array [index + 1] !== undefined) ? elemento.author.birthYear === array[index + 1].author.birthYear : '')) !== undefined ? 'false' : 'true'
+// }
+// console.log(a(books))
+
 const a = (objeto) => {
-  return (objeto.find((elemento, index, array) => 
-    (array [index + 1] !== undefined) ? elemento.author.birthYear === array[index + 1].author.birthYear : '')) !== undefined ? 'false' : 'true'
+  return objeto.filter((elemento) =>
+  elemento.author.name[1] === '.' &&
+  elemento.author.name[4] === '.' &&
+  elemento.author.name[7] === '.'
+  )[0].name
 }
 console.log(a(books))

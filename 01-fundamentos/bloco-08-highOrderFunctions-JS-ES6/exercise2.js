@@ -61,6 +61,10 @@ const books = [
     },
   ];
   
-  const a = (objeto) => objeto.sort((a,b) => a.name.length - b.name.length)[0].name
-  
-  console.log(a(books));
+// const a = (objeto) => objeto.sort((a,b) => a.name.length - b.name.length)[0].name
+// console.log(a(books));
+
+// const a = (objeto) => objeto
+//   .map((elemento) => ({author: elemento.author.name, age: elemento.releaseYear - elemento.author.birthYear}))
+//   .sort((a,b) => a.age - b.age)
+//   console.log(a(books))

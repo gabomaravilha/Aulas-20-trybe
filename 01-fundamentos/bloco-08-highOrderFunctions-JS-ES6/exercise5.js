@@ -61,5 +61,15 @@ const books = [
     },
   ];
   
-  const a = (objeto) => objeto.every((elemento) => elemento.author.birthYear >= 1900 && elemento.author.birthYear <= 2000)
-  console.log(a(books));
+  // const a = (objeto) => objeto.every((elemento) => elemento.author.birthYear >= 1900 && elemento.author.birthYear <= 2000)
+  // console.log(a(books));
+
+  // const a = (objeto) => {
+  //   return objeto
+  //   .filter((elemento) => (
+  //     elemento.genre === 'Fantasia' || elemento.genre === 'Ficção Científica'
+  //   ))
+  //   .map((elemento) => elemento.author.name)
+  //   .sort()
+  // }
+  // console.log(a(books))

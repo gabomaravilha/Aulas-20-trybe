@@ -61,5 +61,8 @@ const books = [
     },
   ];
   
-const a = (objeto) =>  objeto.find((element) => element.author.birthYear === 1947).author.name
-console.log(a(books));
+// const a = (objeto) =>  objeto.find((element) => element.author.birthYear === 1947).author.name
+// console.log(a(books));
+
+// const a = (objeto) => objeto.map((elemento) => `${elemento.name} - ${elemento.genre} - ${elemento.author.name}`)
+// console.log(a(books))
