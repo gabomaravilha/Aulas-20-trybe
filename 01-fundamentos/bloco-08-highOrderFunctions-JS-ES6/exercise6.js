@@ -64,9 +64,25 @@ const books = [
   // const a = (elemento) => elemento.some((elemento) => elemento.releaseYear >= 1980 && elemento.releaseYear <= 1989)
   // console.log(a(books));
 
-  const a = (objeto) => {
-    return objeto
-    .filter((elemento) => (elemento.releaseYear < 2022 - 60))
-    .map((elemento) => elemento.name);
-  }
-  console.log(a(books))
+  // const a = (objeto) => {
+  //   return objeto
+  //   .filter((elemento) => (elemento.releaseYear < 2022 - 60))
+  //   .map((elemento) => elemento.name);
+  // }
+  // console.log(a(books))
+
+const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
+const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
+
+const c = () => students.map((elemento, index) =>{
+    return {name: elemento, 
+    notas: grades[index].reduce((acc, current) => acc + current) / grades[index].length}
+  })
+  
+console.log(studentAverage())
+
+const expected = [
+  { name: 'Pedro Henrique', average: 7.8 },
+  { name: 'Miguel', average: 9.2 },
+  { name: 'Maria Clara', average: 8.8 },
+];

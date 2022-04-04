@@ -68,3 +68,13 @@ const books = [
 //   .map((elemento) => ({author: elemento.author.name, age: elemento.releaseYear - elemento.author.birthYear}))
 //   .sort((a,b) => a.age - b.age)
 //   console.log(a(books))
+
+const a = (objeto) => {
+  return objeto
+  .reduce((acc, current, index, array) => {
+    if (index === array.length - 1) {
+      return `${acc} ${current.author.name}.`
+    } return `${acc} ${current.author.name},`
+  }, '')
+}
+  console.log(a(books))

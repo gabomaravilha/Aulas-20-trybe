@@ -70,3 +70,10 @@ const books = [
 //   ))
 // }
 // console.log(a(books))
+
+// const a = (objeto) => {
+//   const soma = objeto.reduce((acc, current) => acc + (current.releaseYear - current.author.birthYear), 0 )
+//   return soma / objeto.length
+// }
+// console.log(a(books))
+// console.log(books.length)

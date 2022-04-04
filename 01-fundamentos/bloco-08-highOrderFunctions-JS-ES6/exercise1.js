@@ -66,3 +66,13 @@ const books = [
 
 // const a = (objeto) => objeto.map((elemento) => `${elemento.name} - ${elemento.genre} - ${elemento.author.name}`)
 // console.log(a(books))
+
+// const arrays = [
+//   ['1', '2', '3'],
+//   [true],
+//   [4, 5, 6],
+// ];
+
+// const flatten = () => arrays.reduce((acc, current) => acc.concat(current))
+
+// console.log(flatten())

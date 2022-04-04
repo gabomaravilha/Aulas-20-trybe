@@ -70,3 +70,22 @@ const books = [
 //   .sort((elementoA, elementoB) => elementoA.releaseYear - elementoB.releaseYear);
 // }
 // console.log(a(books))
+
+
+
+// function longestNamedBook() {
+//   return books.reduce((acc, element) => {
+//     console.log(acc.name, element.name)
+//     if (element.name.length > acc.name.length) {
+//       return element;
+//     }
+//     return acc
+//   })
+// }
+
+
+// console.log(longestNamedBook())
+
+
+// const a = (objeto) => objeto.reduce((acc, current) => (current.name.length > acc.name.length) ? current : acc)
+// console.log(a(books))

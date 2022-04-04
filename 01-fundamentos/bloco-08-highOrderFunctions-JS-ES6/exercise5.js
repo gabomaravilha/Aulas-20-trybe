@@ -73,3 +73,19 @@ const books = [
   //   .sort()
   // }
   // console.log(a(books))
+
+
+  const names = [
+    'Aanemarie', 'Adervandes', 'Akifusa',
+    'Abegildo', 'Adicellia', 'Aladonata',
+    'Abeladerco', 'Adieidy', 'Alarucha',
+  ];
+  
+  // const a = (objeto) => {
+  //   return objeto.reduce((acc, current) =>{
+  //     return acc + current.split('').reduce((accum, curr) => {
+  //       return (curr === 'a' || curr === 'A') ? accum + 1 : accum + 0
+  //     }, 0)
+  //   }, 0)
+  // }
+  // console.log(a(names))
